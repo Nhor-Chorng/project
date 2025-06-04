@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    />
+    <title>College of Science and Technology</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 10px;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      .activities {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .activity {
+        border: 3px solid gold;
+        padding: 5px;
+        margin: 5px;
+        width: 280px;
+      }
+
+      .activity img {
+        width: 100%;
+        height: auto;
+      }
+
+      .caption {
+        margin-top: 5px;
+        font-weight: bold;
+      }
+
+      .image-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        display: inline-block;
+        height: 100%;
+        padding: 10px 15px;
+      }
+
+      .nav-link:hover {
+        background-color: lightblue;
+        color: navy !important;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fffbe6;
+        border: 1px solid gold;
+        min-width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+      }
+
+      .dropdown-content a {
+        color: #003366;
+        padding: 10px 14px;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .dropdown-content a:hover {
+        background-color: gold;
+        color: white;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .image-box {
+        border: 2px solid rgb(0, 120, 176);
+        padding: 5px;
+        text-align: center;
+        width: 250px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .image-box img {
+        width: 100%;
+        height: auto;
+      }
+
+      .image-box p {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <marquee behavior="slide" direction="left" scrollamount="8">
+        <img src="img/banner.jpg" alt="ohh" style="width: 100%" />
+      </marquee>
+    </div>
+
+    <div style="background-color: navy; padding: 0">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="news.html" class="nav-link">News</a>
+      <a href="faculty.html" class="nav-link">Faculty Members</a>
+      <a href="Training.html" class="nav-link">Professional Training</a>
+      <a href="videos.html" class="nav-link">Videos CoST</a>
+
+      <div class="dropdown" style="display: inline-block; position: relative">
+        <a class="nav-link dropbtn">Bachelor Programs </a>
+        <div class="dropdown-content">
+          <a href="IT.html"
+            >Information Technology
+            <span style="color: blue"> Since 2003 </span></a
+          >
+          <a href="CS.html"
+            >Computer Science <span style="color: blue"> Since 2003 </span></a
+          >
+          <a href="ETC.html"
+            >Electronics and Telecom
+            <span style="color: blue"> Since 2003 </span></a
+          >
+          <a href="GDM.html"
+            >Graphic Design & Multimedia
+            <span style="color: red"> New 2026 </span></a
+          >
+          <a href="BMIT.html"
+            >Business Management IT
+            <span style="color: red"> New 2026 </span></a
+          >
+          <a href="NECS.html"
+            >Network & Cyber Security
+            <span style="color: red"> New 2026 </span></a
+          >
+          <a href="DSAI.html"
+            >Data Science & AI <span style="color: red"> New 2026 </span></a
+          >
+        </div>
+      </div>
+
+      <div class="dropdown" style="display: inline-block; position: relative">
+        <a class="nav-link dropbtn">Computer Labs </a>
+        <div class="dropdown-content">
+          <a href="Lab1.html">Multimedia Lab</a>
+          <a href="Lab2.html">E-learning Lab</a>
+          <a href="Lab3.html">Networking Lab</a>
+          <a href="Lab4.html">IT Center Lab</a>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      សូមស្វាគមន៍មកកាន់វិទ្យាស្ថានវិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យា​
+      នៃសាកលវិទ្យាល័យកម្ពុជា។
+      សម្រាប់អ្នកទាំងអស់គ្នាដែលមានបំណងបន្តការសិក្សាថ្នាក់អាហ្សូសេ
+      និងបរិញ្ញាប័ត្រ សូមចុះឈ្មោះឥឡូវនេះ ឬអញ្ជើញមកទស្សនាវិទ្យាស្ថាន។
+    </p>
+    <p style="font-family: 'Khmer OS Battambang'; font-size: 18px">
+      សូមស្វាគមន៍មកកាន់វិទ្យាស្ថានវិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យា
+      នៃសាកលវិទ្យាល័យកម្ពុជា...
+    </p>
+    <p>
+      Welcome to College of Science and Technology of The University of
+      Cambodia. For everyone who wishes to pursue for any AA and BA degrees of
+      the study programs, please register now or visit the campus of The
+      University of Cambodia.
+    </p>
+    <h3 style="text-align: center">Studying Activities in CoST</h3>
+    <div class="image-gallery">
+      <div class="image-box">
+        <a href="img/a.jpg" target="_blank"
+          ><img src="img/a.jpg" alt="Web"
+        /></a>
+        <p>Web Development HTML CSS</p>
+      </div>
+      <div class="image-box">
+        <a href="img/b.JPG" target="_blank"
+          ><img src="img/b.JPG" alt="Web"
+        /></a>
+        <p>Web Development HTML CSS</p>
+      </div>
+      <div class="image-box">
+        <a href="img/c.jpg" target="_blank"
+          ><img src="img/c.jpg" alt="web"
+        /></a>
+        <p>Web Development HTML CSS</p>
+      </div>
+      <div class="image-box">
+        <a href="img/d.jpg" target="_blank"
+          ><img src="img/d.jpg" alt="web"
+        /></a>
+        <p>Web Development HTML CSS</p>
+      </div>
+    </div>
+    <h1
+      style="
+        background-color: rgb(13, 13, 182);
+        font-family: Kh moul;
+        color: aliceblue;
+      "
+    >
+      <marquee
+        behavior="scroll"
+        direction="left"
+        scrollamount="15"
+        loop="infinite"
+      >
+        <img src="img/cost.jpg" alt="jpg" style="width: 6%" /> សូមស្វាគមន៍! IT
+        EXPERT College Science and Technology
+      </marquee>
+    </h1>
+    <h1 style="font-family: 'Times New Roman', Times, serif">
+      Compurter Laps College CoST
+    </h1>
+    <div class="image-gallery">
+      <div class="image-box">
+        <a href="img/e.jpg" target="_blank"
+          ><img src="img/e.jpg" alt="Web"
+        /></a>
+        <p>Web Development-HTML CSS</p>
+      </div>
+      <div class="image-box">
+        <a href="img/f.jpg" target="_blank"
+          ><img src="img/f.jpg" alt="Web"
+        /></a>
+        <p>Studying Multimedia Lab</p>
+      </div>
+      <div class="image-box">
+        <a href="img/g.jpg" target="_blank"
+          ><img src="img/g.jpg" alt="Web"
+        /></a>
+        <p>Studying IT-Center Lab</p>
+      </div>
+      <div class="image-box">
+        <a href="img/h.jpg" target="_blank"
+          ><img src="img/h.jpg" alt="Web"
+        /></a>
+        <p>Graduation 2025</p>
+      </div>
+    </div>
+    <footer
+      style="
+        background-color: rgb(13, 13, 110);
+        color: aliceblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      "
+    >
+      <img src="img/uc.png" width="60px" />
+      <p
+        style="
+          font-size: 10px;
+          margin: auto;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        Copyright @ University of Cambodia
+      </p>
+    </footer>
+  </body>
+</html>
